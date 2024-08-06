@@ -1,0 +1,161 @@
+body {
+    background-color: lightgoldenrodyellow;
+    margin: 0;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.para-head {
+    font-size: 25px;
+    margin: 25px;
+    margin-top: 0px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.preface {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    background-image: url(pics/icegif-39.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    margin-top: 127px;
+    margin-bottom: 50px;
+    opacity: 0.9;
+}
+.preface .para-body {
+    width: 500px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.middle-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-right: 10px;
+}
+.middle-section div {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 47%;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgoldenrodyellow;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border: none;
+    border-radius: 25px;
+    padding: 5px;
+    box-shadow: 0 0 1px rgb(75, 75, 74);
+}
+.middle-section div:hover {
+    color: rgb(0, 128, 255);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 35px rgb(75, 75, 74);
+}
+.mid-sec-link {
+    color: black;
+    text-decoration: none;
+}
+.mid-sec-link:hover {
+    color: rgb(0, 128, 255);
+    background-color: white;
+}
+.middle-section div img {
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 100px;
+    object-fit: cover;
+}
+.middle-section div img:hover {
+    box-shadow: 0px 0px 18px gray ;
+}
+.ending-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    background-image: url("pics/quote.jpg");
+    object-fit: contain;
+    align-items: center;
+}
+.agreement {
+    flex: 1;
+    font-size: 14px;
+    color: white;
+    padding: 15px; 
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card { 
+    flex: 1;
+    background-color: white; 
+    border-radius: 10px; 
+    padding: 20px; 
+    text-align: center;  
+    opacity: 0.9;
+    margin: 20px;
+}
+.subb { 
+    color: #03bf38; 
+    margin-bottom: 1px;
+    font-size: 14px; 
+} 
+form { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+.msg { 
+    display: none; 
+    color: rgb(5, 200, 5); 
+    margin-top: 5px;
+    font-size: 14px;
+}
+input[type="email"] { 
+    width: 65%; 
+    padding: 5px; 
+    margin-bottom: 6px; 
+    border: 1px solid #ccc; 
+    border-radius: 7px;
+    margin-top: 7px; 
+}
+input[type="text"] {
+    width: 65%; 
+    padding: 5px; 
+    margin-bottom: 6px; 
+    border: 1px solid #ccc; 
+    border-radius: 7px;
+    margin-top: 7px;
+}
+.card form button { 
+    height: 20px;
+    width: 100px;
+    font-size: 15px;
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600; 
+    margin-top: 0px;
+    cursor: pointer; 
+    transition: background-color 0.4s ease; 
+}
+.card form button:hover {
+    opacity: 0.9;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    cursor: pointer;
+}
+.card form button:active {
+    box-shadow: 0 0 15px rgb(255, 39, 39);
+}
+

@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background-color: lightcyan;
+    margin-top: 220px;
+    margin-left: 0;
+    margin-right: 0px;
+}
+p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.contact-us {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'lucida sans';
+    color: rgb(5, 109, 200);
+}
+.fyi {
+    font-size: 23px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'lucida sans';
+    color: rgb(0, 0, 0); 
+    margin-bottom: 20px;
+}
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.middle-section div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(195, 255, 235);
+    margin: 10px;
+}
+.middle-section div a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+.middle-section div a:hover {
+    color: rgb(0, 165, 173);
+}
+.middle-section div a:active {
+    color: black;
+}

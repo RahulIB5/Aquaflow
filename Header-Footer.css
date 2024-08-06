@@ -1,0 +1,207 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(143, 238, 255);
+    object-fit: fill;
+    margin: 0;
+    border: 0;
+    border-radius: px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    font-size: 40px;
+    font-family: 'lucida sans';
+    font-weight: 450;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 0px;
+}
+.logo-names {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 25px;
+    padding-left: 10px;
+    height: 70px;
+    background-color: azure;
+}
+.dsce {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px rgb(75, 75, 75);
+    object-fit: cover;
+}
+.designed-by {
+    text-align: center;
+    margin-bottom: 0;
+    background-color: azure;
+}
+.fixed-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left:0;
+    z-index: 100;
+}
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(201, 254, 252);
+    padding-right: 25px;
+    padding-left: 10px;
+}
+.search {
+   width: 100px;
+   border: none;
+   border-radius: 25px;
+   padding: 5px;
+   align-items: center;
+   font-size: 15px;
+}
+.search:hover {
+    box-shadow: 0 0 13px gray;
+}
+.dashboard div {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.home {
+    text-decoration: none;
+    color: black;
+}
+.home:hover {
+    color: rgb(255, 0, 247);
+}
+.home:active {
+    color: black;
+}
+.about-us {
+    text-decoration: none;
+    color: black;
+}
+.about-us:hover {
+    color: rgb(255, 0, 247);
+}
+.about-us:active {
+    color: black;
+}
+.dashboard div:hover {
+    color: rgb(255, 0, 247);
+    cursor: pointer;
+}
+.dashboard .search:hover{
+    cursor: help;
+}
+.logo {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 30px;
+    object-fit: cover;
+    box-shadow: 0px 0px 20px rgb(75, 75, 75);
+}
+.logo:hover {
+    box-shadow: 0 0 20px black;
+    width: 62px;
+    height: 62px;
+    border-radius: 31px;
+    margin: 9px;
+    margin-left: 18px;
+    margin-right: 10px;
+}
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 40px;
+    color: rgb(26, 96, 248);
+    font-weight: 500;
+    font-family: serif;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(201, 254, 252);
+    height: 300px;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 20px;
+    margin-top: 50px
+}
+.footer-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.word {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-container div div p {
+    padding: 20px; 
+}
+.footer-container div div p:hover {
+    color: rgb(84, 104, 255);
+}
+.discover {
+    text-decoration: none;
+    color: black;
+}
+.discover:hover {
+    color: rgb(84, 104, 255);
+}
+.discover:active {
+    color: black;
+}
+.facebook {
+    width: 20px;
+}
+.facebook:hover {
+    opacity: 0.6;
+}
+.soc-med {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+}
+.soc-med a div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+.soc-med a div p {
+    text-decoration: none;
+    color: black;
+}
+.soc-med a div p:active {
+    color: black;
+}
